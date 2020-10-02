@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3_Java基本程序结构/数组/ArrayTest/ArrayTest.iml" filepath="$PROJECT_DIR$/3_Java基本程序结构/数组/ArrayTest/ArrayTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Java基本程序结构/数组/ArraysTest/ArraysTest.iml" filepath="$PROJECT_DIR$/3_Java基本程序结构/数组/ArraysTest/ArraysTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Java基本程序结构/数组/ForEachTest/ForEachTest.iml" filepath="$PROJECT_DIR$/3_Java基本程序结构/数组/ForEachTest/ForEachTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_Java基本程序结构/数组/Num2Rmb/Num2Rmb.iml" filepath="$PROJECT_DIR$/3_Java基本程序结构/数组/Num2Rmb/Num2Rmb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudyJava.iml" filepath="$PROJECT_DIR$/StudyJava.iml" />
+    </modules>
+  </component>
+</project>
