@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/h2jse/0_1_HelloJava/0_1_HelloJava.iml" filepath="$PROJECT_DIR$/h2jse/0_1_HelloJava/0_1_HelloJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h2jse/0_2_j2se/0_2_j2se.iml" filepath="$PROJECT_DIR$/h2jse/0_2_j2se/0_2_j2se.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h2jse/0_3_BMIcalc/0_3_BMIcalc.iml" filepath="$PROJECT_DIR$/h2jse/0_3_BMIcalc/0_3_BMIcalc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/h2jse/0_4_输入输出方法/0_4_输入输出方法.iml" filepath="$PROJECT_DIR$/h2jse/0_4_输入输出方法/0_4_输入输出方法.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_Java基本程序结构/数组/ArrayTest/ArrayTest.iml" filepath="$PROJECT_DIR$/3_Java基本程序结构/数组/ArrayTest/ArrayTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_Java基本程序结构/数组/ArraysTest/ArraysTest.iml" filepath="$PROJECT_DIR$/3_Java基本程序结构/数组/ArraysTest/ArraysTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/3_Java基本程序结构/数组/ForEachTest/ForEachTest.iml" filepath="$PROJECT_DIR$/3_Java基本程序结构/数组/ForEachTest/ForEachTest.iml" />

@@ -42,8 +42,7 @@ public class Num2Rmb {
     private String[] toHanStr(String[] numStr) {
         String result = "";
 /*
-        先处理字符串，将其分为整数和小数部分
-        String[] numArr = numStr.split(",");
+        用逗号分隔split(",");
 */
 /*
         处理整数部分
@@ -77,7 +76,7 @@ public class Num2Rmb {
                }
           }
          */
-
+        //先处理字符串，将其分为整数和小数部分
         char[] numZhengArr = numStr[0].toCharArray();
 
 
