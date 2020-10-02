@@ -11,6 +11,7 @@ public class Num2Rmb {
     //即只输出一个“零”
     private String[] moreZero() {
 
+        return new String[0];
     }
 
     /**
@@ -37,7 +38,6 @@ public class Num2Rmb {
      * 把处理后的数字字符串变成汉字字符串
      *
      * @param numStr 数字字符串
-     * @return 转换后的汉字字符串
      */
     private String[] toHanStr(String[] numStr) {
         String result = "";
@@ -80,6 +80,7 @@ public class Num2Rmb {
         char[] numZhengArr = numStr[0].toCharArray();
 
 
+        return numStr;
     }
 
 
