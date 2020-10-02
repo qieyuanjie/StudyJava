@@ -1,0 +1,84 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BMIcalc<j2se>",
+            "request": "launch",
+            "mainClass": "BMIcalc",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloJava<j2se>",
+            "request": "launch",
+            "mainClass": "HelloJava",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-HelloWorld<j2se>",
+            "request": "launch",
+            "mainClass": "HelloWorld",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Hero<j2se>",
+            "request": "launch",
+            "mainClass": "Hero",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Item<j2se>",
+            "request": "launch",
+            "mainClass": "Item",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-eg001<j2se>",
+            "request": "launch",
+            "mainClass": "eg001",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-eg002<j2se>",
+            "request": "launch",
+            "mainClass": "eg002",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-eg003<j2se>",
+            "request": "launch",
+            "mainClass": "eg003",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-eg004<j2se>",
+            "request": "launch",
+            "mainClass": "eg004",
+            "projectName": "j2se"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-eg005<j2se>",
+            "request": "launch",
+            "mainClass": "eg005",
+            "projectName": "j2se"
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HelloWorld.java&apos; to &apos;1_10_枚举类型/src&apos;&#x0D;&#x0A;－ 原始项目：“0_1_HelloJava”&#x0D;&#x0A;－ 目标元素：“1_10_枚举类型/src”&#x0D;&#x0A;－ 原始元素：“HelloWorld.java”" description="复制编译单元" destination="=1_10_枚举类型/src" element1="/src&lt;{HelloWorld.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1575469702575" units="1" version="1.0"/>
+</session>

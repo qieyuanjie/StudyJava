@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Hero.java&apos; to &apos;1_4_传参/src&apos;&#x0D;&#x0A;－ 原始项目：“1_3_构造方法”&#x0D;&#x0A;－ 目标元素：“1_4_传参/src”&#x0D;&#x0A;－ 原始元素：“Hero.java”" description="复制编译单元" destination="=1_4_传参/src" element1="/src&lt;{Hero.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1575460060539" units="1" version="1.0"/>
+</session>
