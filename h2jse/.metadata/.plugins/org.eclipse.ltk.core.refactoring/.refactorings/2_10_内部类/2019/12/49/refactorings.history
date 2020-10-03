@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 2 packages to &apos;2_11_默认方法/src&apos;&#x0D;&#x0A;－ 原始项目：“2_10_内部类”&#x0D;&#x0A;－ 目标元素：“2_11_默认方法/src”&#x0D;&#x0A;－ 原始元素：&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本2_10_内部类/src/charactor&#x0D;&#x0A;JavaRefactoringDescriptorComment_textual_move_only=仅移动文本2_10_内部类/src/property" description="复制包" destination="=2_11_默认方法/src" element1="/src&lt;charactor" element2="/src&lt;property" flags="589830" fragments="2" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1575698982329" version="1.0"/>
-</session>

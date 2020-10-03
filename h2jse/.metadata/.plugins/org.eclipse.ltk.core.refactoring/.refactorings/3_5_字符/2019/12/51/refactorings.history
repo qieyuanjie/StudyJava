@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="将包“charactor”重命名为“character”&#x0D;&#x0A;－ 原始项目：“3_5_字符”&#x0D;&#x0A;－ 原始元素：“3_5_字符/src/charactor”&#x0D;&#x0A;－ 重命名的元素：“3_5_字符/src/character”&#x0D;&#x0A;－ 更新对已重构元素的引用&#x0D;&#x0A;－ 更新注释和字符串中出现的文本" description="重命名包“charactor”" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;charactor" name="character" qualified="false" references="true" stamp="1576389731288" textual="false" version="1.0"/>
-</session>
