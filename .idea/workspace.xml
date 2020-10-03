@@ -20,8 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92842713-9e5c-4389-9263-a97d9a5ac4a6" name="默认更改列表" comment="update index">
+      <change afterPath="$PROJECT_DIR$/1_基础知识._2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_基础知识_1.md" beforeDir="false" afterPath="$PROJECT_DIR$/1_基础知识._1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/v1ch03/LotteryDrawing/LotteryDrawing.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1ch03/LotteryDrawing/LotteryDrawing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +44,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -63,13 +70,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -89,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601707820563</updated>
-      <workItem from="1601707821688" duration="837000" />
+      <workItem from="1601707821688" duration="1097000" />
+      <workItem from="1601711704855" duration="3341000" />
     </task>
     <task id="LOCAL-00001" summary="update index">
       <created>1601707928234</created>
@@ -105,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601708102978</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update index">
+      <created>1601708690971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601708690971</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,32 +138,37 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update index" />
     <option name="LAST_COMMIT_MESSAGE" value="update index" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="341" y="0" key="#Java" timestamp="1601708795054">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="341" y="0" key="#Java/0.0.1536.824@0.0.1536.824" timestamp="1601708795054" />
     <state x="610" y="304" width="678" height="391" key="#Markdown" timestamp="1601708645091">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="610" y="304" width="678" height="391" key="#Markdown/0.0.1536.824@0.0.1536.824" timestamp="1601708645091" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601708300361">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601708930705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601708300361" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601708300360">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601708930705" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601708930705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601708300360" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601708300360">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601708930705" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601708930705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601708300360" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601708300361">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601708930705" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601708930705">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601708300361" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601708930705" />
     <state x="249" y="0" key="SettingsEditor" timestamp="1601707869702">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -155,5 +177,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601708110707" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1601713400989">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601713400989" />
   </component>
 </project>

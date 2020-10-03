@@ -30,6 +30,7 @@ public class LotteryDrawing
             int r = (int) (Math.random() * n);
 
             // pick the element at the random location
+            //最初result[i]的值为 r+1
             result[i] = numbers[r];
 
             // move the last element into the random location
