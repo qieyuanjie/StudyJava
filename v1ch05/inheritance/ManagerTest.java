@@ -23,6 +23,17 @@ public class ManagerTest
 
         // print out information about all Employee objects
         for (Employee e : staff)
+
             System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
+        //staff[0].setBonus(5000);
+        boss.setBonus(5000);
+
+        // Test 多态
+        Employee e;
+        e = new Employee("Harry Hacker", 50000, 1989, 10, 1);
+        System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
+        e = new Manager("Carl Cracker", 80000, 1987, 12, 15);
+        System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
     }
+
 }
