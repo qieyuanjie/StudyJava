@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92842713-9e5c-4389-9263-a97d9a5ac4a6" name="默认更改列表" comment="upload new test and demo">
-      <change afterPath="$PROJECT_DIR$/.1_基础知识._2_images/45847089.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.1_基础知识._2_images/bfbfb04a.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_基础知识._1.md" beforeDir="false" afterPath="$PROJECT_DIR$/1_基础知识._1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1_基础知识._2.md" beforeDir="false" afterPath="$PROJECT_DIR$/1_基础知识._2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/v1ch05/inheritance/ManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/v1ch05/inheritance/ManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/标记.md" beforeDir="false" afterPath="$PROJECT_DIR$/标记.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +154,7 @@
       <workItem from="1601776478974" duration="13577000" />
       <workItem from="1601798090817" duration="4856000" />
       <workItem from="1601858021575" duration="2339000" />
-      <workItem from="1601860413347" duration="13055000" />
+      <workItem from="1601860413347" duration="17080000" />
     </task>
     <task id="LOCAL-00001" summary="update index">
       <created>1601707928234</created>
@@ -224,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601862854962</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="upload new test and demo">
+      <created>1601875677495</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601875677495</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,22 +278,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="581" y="248" key="GrepConsoleSound/0.0.1536.824@0.0.1536.824" timestamp="1601875606036" />
-    <state width="746" height="202" key="GridCell.Tab.0.bottom" timestamp="1601865994201">
+    <state width="489" height="458" key="GridCell.Tab.0.bottom" timestamp="1601878783774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="202" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601865994201" />
-    <state width="746" height="202" key="GridCell.Tab.0.center" timestamp="1601865994200">
+    <state width="489" height="458" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601878783774" />
+    <state width="489" height="458" key="GridCell.Tab.0.center" timestamp="1601878783774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="202" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601865994200" />
-    <state width="746" height="202" key="GridCell.Tab.0.left" timestamp="1601865994200">
+    <state width="489" height="458" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601878783774" />
+    <state width="489" height="458" key="GridCell.Tab.0.left" timestamp="1601878783774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="202" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601865994200" />
-    <state width="746" height="202" key="GridCell.Tab.0.right" timestamp="1601865994201">
+    <state width="489" height="458" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601878783774" />
+    <state width="489" height="458" key="GridCell.Tab.0.right" timestamp="1601878783774">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="202" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601865994201" />
+    <state width="489" height="458" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601878783774" />
     <state x="408" y="115" key="NewModule_or_Project.wizard" timestamp="1601861204864">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
