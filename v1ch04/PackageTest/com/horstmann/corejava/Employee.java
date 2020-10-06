@@ -4,7 +4,7 @@ package com.horstmann.corejava;
 
 import java.time.*;
 
-// import statements come after the package statement
+// import statements(声明) come after the package statement
 
 /**
  * @version 1.11 2015-05-08

@@ -93,7 +93,8 @@ Hibernate的设计初衷，是为了最大程度的解放程序员，完全隔�
 Servlet不仅要学，而且要学深，学透。
 当前，Servlet虽然不再是一个主流web开发技术，但依然是Java Web开发技术的基础，是Java Web容器的基石，是行业标准。而现在流行的各种MVC框架（包括SpringMVC），在最底层，还是以 Servlet为基础的。
 为此，我画了一个简单的图（不准确，会意即可）：
-![Web容器](https://i.imgur.com/SR8Hmz4.png)
+
+![](.README_images/ab01d2e1.png)
 所以，如果你想要彻底掌握某个MVC框架，则必须彻底理解Servlet。
 而且，Servlet作为一个基础设施。精通它，不仅有助于理解各种MVC框架。即使Servlet本身，也有很多实用价值。
 如果你深刻理解了Servlet的生命周期，就可以在底层做很多事情。譬如在Request进来的时候，进行拦截，进行权限的判定。也可以在Response发出的时候，进行拦截，统一检查、统一附加。
