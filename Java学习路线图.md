@@ -6,7 +6,8 @@
 3. 优化学习方法，避开前端知识。
 4. 及时引入Jar包管理（Maven）。
 下面是具体的 “Java学习路线图”：<br>
-![test](https://i.imgur.com/nHGgLoc.jpeg)
+
+![](.Java学习路线图_images/fabc8942.png)
 
 在图中，我把Java学习分成3个阶段：
 1. 基础知识
