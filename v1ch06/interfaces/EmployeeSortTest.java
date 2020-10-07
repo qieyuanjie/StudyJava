@@ -20,7 +20,8 @@ public class EmployeeSortTest
       Arrays.sort(staff);
 
       // print out information about all Employee objects
-      for (Employee e : staff)
+      for (Employee e : staff) {
          System.out.println("name=" + e.getName() + ",salary=" + e.getSalary());
+      }
    }
 }
