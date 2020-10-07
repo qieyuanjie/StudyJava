@@ -1,60 +1,69 @@
 ﻿package charactor;
-public abstract class Hero{
+
+public abstract class Hero {
     String name;//姓名
     float hp;//血量
     float armor;//护甲
     int moveSpeed;// move Speed
-  public abstract void attack();
-    class BattleScore{
-    	int kill;
-    	int die;
-    	int assit;
-//    	语法: new 外部类().new 内部类()
+
+    public abstract void attack();
+
+    class BattleScore {
+        int kill;
+        int die;
+        int assit;
+
+        //    	语法: new 外部类().new 内部类()
 //    	作为Hero的非静态内部类，是可以直接访问外部类的private实例属性name的
-    	public void legendary() {
-    		if(kill >= 8)
-    			System.out.println(name + "超神");
-    		else 
-    			System.out.println(name + "尚未超神");
-    	}
+        public void legendary() {
+            if (kill >= 8)
+                System.out.println(name + "超神");
+            else
+                System.out.println(name + "尚未超神");
+        }
     }
-    private static void battleWin(){
+
+    private static void battleWin() {
         System.out.println("battle win");
     }
-    public  String getname() {
-    	return name;
+
+    public String getname() {
+        return name;
     }
+
     //敌方的水晶
-    static class EnemyCrystal{
-    	int hp = 5000;
-    	//当水晶的血量为0时，则宣布胜利
-    	public void checkIfVictory() {
-    		if(hp == 0) {
-    			Hero.battleWin();
-    			//静态类不能直接访问外部类的对象属性
+    static class EnemyCrystal {
+        int hp = 5000;
+
+        //当水晶的血量为0时，则宣布胜利
+        public void checkIfVictory() {
+            if (hp == 0) {
+                Hero.battleWin();
+                //静态类不能直接访问外部类的对象属性
 //    			System.out.println(name + "win this game");
-    			//静态类不能直接访问外部类的非静态方法
+                //静态类不能直接访问外部类的非静态方法
 //    			String name = Hero.getname();
-    			
-    		}
+
+            }
 //    		Hero.battleWin();
-    	}
+        }
     }
+
     public static void main(String[] args) {
-		//在匿名类中使用外部的局部变量，外部的局部变量必须用final修饰
+        //在匿名类中使用外部的局部变量，外部的局部变量必须用final修饰
 //    	注：在jdk8中，已经不需要强制修饰成final了，
 //    	如果没有写final，不会报错，因为编译器偷偷的帮你加上了看不见的final
-    	final int damage = 5;
+        final int damage = 5;
 //    	Hero h = new Hero();//错误的定义方法
-    	Hero h = new Hero() {
-    		public void attack() {
-    			//使用printf函数
-    			System.out.printf("新的进攻手段，造成%d点伤害",damage);
-    		}
-    	};
-    	h.attack();
-    	
-	}
+        Hero h = new Hero() {
+            public void attack() {
+                //使用printf函数
+                System.out.printf("新的进攻手段，造成%d点伤害", damage);
+            }
+        };
+        h.attack();
+
+    }
 //    public static void main(String[] args) {
 //    	ADHero ad = new ADHero();
 //    	ad.attack();
@@ -97,9 +106,9 @@ public abstract class Hero{
 //    	
 //    }
 //   public static void main(String[] args) {
-        //虽然没有抽象方法，但是一旦被声明为了抽象类，就不能够直接被实例化
+    //虽然没有抽象方法，但是一旦被声明为了抽象类，就不能够直接被实例化
 //        Hero h= new Hero();
-    	
+
 //    	Hero garen = new Hero();
 //    	garen.name = "盖伦";
 //    	
@@ -122,7 +131,7 @@ public abstract class Hero{
 //    	//实例化静态内部类
 //    	Hero.EnemyCrystal crystal = new Hero.EnemyCrystal();
 //    	crystal.checkIfVictory();
-    	
- //   }
+
+    //   }
 }
 

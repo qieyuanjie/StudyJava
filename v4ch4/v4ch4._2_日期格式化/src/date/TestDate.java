@@ -1,11 +1,13 @@
 package date;
+
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 
 import java.text.ParseException;
-import  java.text.SimpleDateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Date;
+
 public class TestDate {
     public static void main(String[] args) {
 
@@ -40,46 +42,49 @@ public class TestDate {
         int yearStart = 1970;
         int yearEnd = 2000;
         Date[] ds = new Date[9];
-        for(int i = 0;i < ds.length;i++){
+        for (int i = 0; i < ds.length; i++) {
 
-            ds[i] =getRandomTime(yearStart,yearEnd) ;
+            ds[i] = getRandomTime(yearStart, yearEnd);
 
         }
         System.out.println("得到的随机日期数组");
-        for(int i =0;i<ds.length;i++){
-            System.out.print(ds[i] +"\t");
-            if(2 == i%3)
+        for (int i = 0; i < ds.length; i++) {
+            System.out.print(ds[i] + "\t");
+            if (2 == i % 3)
                 System.out.println();
         }
         sortByJudge(ds);
         System.out.println("排序后的随机日期数组");
-        for(int i = 0;i<ds.length;i++){
-            System.out.print(ds[i] +"\t");
-            if(2 == i%3)
+        for (int i = 0; i < ds.length; i++) {
+            System.out.print(ds[i] + "\t");
+            if (2 == i % 3)
                 System.out.println();
         }
 
     }
+
     @NotNull
-    public static String toString(Date d){
-        return toString(d,"yyyy-MM-dd HH:mm:SS");
+    public static String toString(Date d) {
+        return toString(d, "yyyy-MM-dd HH:mm:SS");
     }
+
     @NotNull
-    public static String toString(Date d, String format){
+    public static String toString(Date d, String format) {
         SimpleDateFormat sdf = new SimpleDateFormat(format);
         return sdf.format(d);
     }
-    private static void sortByJudge(@NotNull Date[] ds){
+
+    private static void sortByJudge(@NotNull Date[] ds) {
         //选择法排序
-        for (int j = 0; j < ds.length-1; j++) {
-            for (int i = j+1; i < ds.length; i++) {
-                String strTimeI = toString(ds[i],"HHmmss");
-                String strTimeJ = toString(ds[j],"HHmmss");
+        for (int j = 0; j < ds.length - 1; j++) {
+            for (int i = j + 1; i < ds.length; i++) {
+                String strTimeI = toString(ds[i], "HHmmss");
+                String strTimeJ = toString(ds[j], "HHmmss");
 
                 int lTimeI = Integer.parseInt(strTimeI);
                 int lTimeJ = Integer.parseInt(strTimeJ);
 
-                if( lTimeI<lTimeJ  ){
+                if (lTimeI < lTimeJ) {
                     Date temp = ds[j];
                     ds[j] = ds[i];
                     ds[i] = temp;
@@ -87,8 +92,9 @@ public class TestDate {
             }
         }
     }
+
     @Nullable
-    private static Date getRandomTime(int yearStart, int yearEnd){
+    private static Date getRandomTime(int yearStart, int yearEnd) {
 //        long second = 1000;
 //        long minute = second * 60;
 //        long hour = minute *60;
@@ -102,15 +108,15 @@ public class TestDate {
 //        //打表完成
 
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy");
-        try{
+        try {
             Date dStart = sdf.parse(String.valueOf(yearStart));//1970
-            Date dEnd = sdf.parse(String.valueOf(yearEnd+1));
+            Date dEnd = sdf.parse(String.valueOf(yearEnd + 1));
             // 2001 不是 2000，要在2001的基础上减少以毫秒，才表示2000最后一刻
             long timeStart = dStart.getTime();
             long timeEnd = dEnd.getTime() - 2;//2001年-2毫秒
-            long timeRandom = (long)(timeStart + Math.random()*(timeEnd - timeStart));
-            return  new Date(timeRandom);
-        }catch (ParseException e){
+            long timeRandom = (long) (timeStart + Math.random() * (timeEnd - timeStart));
+            return new Date(timeRandom);
+        } catch (ParseException e) {
             e.printStackTrace();
         }
         return null;

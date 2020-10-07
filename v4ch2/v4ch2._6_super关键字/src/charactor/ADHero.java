@@ -1,29 +1,33 @@
 package charactor;
+
 import property.Item;
 import property.LifePotion;
-public class ADHero extends Hero implements AD{
-	@Override
-	public void physicAttack() {
-		System.out.println("进行物理攻击");
-	}
-	
-	public ADHero() {
-		super("test");
-	}
-	public ADHero(String name) {
-		super(name);
-	}
+
+public class ADHero extends Hero implements AD {
+    @Override
+    public void physicAttack() {
+        System.out.println("进行物理攻击");
+    }
+
+    public ADHero() {
+        super("test");
+    }
+
+    public ADHero(String name) {
+        super(name);
+    }
+
     //子类重写useItem，并在其中调用父类的useItem方法
 //    public void useItem(Item i) {
 //    	System.out.println("ADHero use item");
 //    	super.useItem(i);
 //    }
     public static void main(String[] args) {
-    	ADHero h = new ADHero(); 
+        ADHero h = new ADHero();
 //        Item lp = new LifePotion();
 //        h.useItem(lp);
-	}
-    
+    }
+
 //练习
 //父类Hero提供了一个有参的构造方法
 //但是没有提供无参的构造方法

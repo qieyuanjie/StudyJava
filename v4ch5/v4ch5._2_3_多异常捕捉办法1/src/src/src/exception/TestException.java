@@ -1,4 +1,5 @@
 package src.src.exception;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -23,27 +24,27 @@ import java.util.Date;
 //    System.out.println("日期格式解析错误");
 //    e.printStackTrace();
 //}
-public class TestException{
-     public static void main(String[] args){
-         File f= new File("d:/LOL.exe");
-         try{
-             System.out.println("试图打开 d:/lol.exe");
-             new FileInputStream(f);
-             System.out.println("成功打开");
-             SimpleDateFormat sdf1= new SimpleDateFormat("yyyy-MM-dd");//装箱
+public class TestException {
+    public static void main(String[] args) {
+        File f = new File("d:/LOL.exe");
+        try {
+            System.out.println("试图打开 d:/lol.exe");
+            new FileInputStream(f);
+            System.out.println("成功打开");
+            SimpleDateFormat sdf1 = new SimpleDateFormat("yyyy-MM-dd");//装箱
 //             SimpleDateFormat sdf2="yyyy-MM-dd";
-             Date d1=sdf1.parse("2016-06-03");
+            Date d1 = sdf1.parse("2016-06-03");
 
-         } catch(FileNotFoundException e){
-             System.out.println("d:/lol.exe 打开失败");
-             e.printStackTrace();
-             //e.printStackTrace(); 会打印出方法的调用痕迹，如此例，会打印出异常开始于TestException的第13行，这样就便于定位和分析到底哪里出了异常
+        } catch (FileNotFoundException e) {
+            System.out.println("d:/lol.exe 打开失败");
+            e.printStackTrace();
+            //e.printStackTrace(); 会打印出方法的调用痕迹，如此例，会打印出异常开始于TestException的第13行，这样就便于定位和分析到底哪里出了异常
 
-         }catch(ParseException e){
-             System.out.println("日期格式解析错误");
-             e.printStackTrace();
+        } catch (ParseException e) {
+            System.out.println("日期格式解析错误");
+            e.printStackTrace();
 
-         }
-     }
- }
+        }
+    }
+}
 

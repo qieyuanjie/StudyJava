@@ -2,13 +2,12 @@ package inheritance;
 
 /**
  * This program demonstrates inheritance.
- * @version 1.21 2004-02-21
+ *
  * @author Cay Horstmann
+ * @version 1.21 2004-02-21
  */
-public class ManagerTest
-{
-    public static void main(String[] args)
-    {
+public class ManagerTest {
+    public static void main(String[] args) {
         // construct a Manager object
         var boss = new Manager("Carl Cracker", 80000, 1987, 12, 15);
         boss.setBonus(5000);
@@ -76,8 +75,6 @@ public class ManagerTest
         System.out.println("name=" + staff1[0].getName() );
 
          */
-
-
 
 
     }

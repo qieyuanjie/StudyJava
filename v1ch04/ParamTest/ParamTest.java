@@ -1,12 +1,11 @@
 /**
  * This program demonstrates parameter passing in Java.
- * @version 1.01 2018-04-10
+ *
  * @author Cay Horstmann
+ * @version 1.01 2018-04-10
  */
-public class ParamTest
-{
-    public static void main(String[] args)
-    {
+public class ParamTest {
+    public static void main(String[] args) {
         /*
          * Test 1: Methods can't modify numeric parameters
          */
@@ -50,8 +49,7 @@ public class ParamTest
         System.out.println("End of method: salary=" + x.getSalary());
     }
 
-    public static void swap(Employee x, Employee y)
-    {
+    public static void swap(Employee x, Employee y) {
         Employee temp = x;
         x = y;
         y = temp;
@@ -65,24 +63,20 @@ class Employee // simplified Employee class
     private String name;
     private double salary;
 
-    public Employee(String n, double s)
-    {
+    public Employee(String n, double s) {
         name = n;
         salary = s;
     }
 
-    public String getName()
-    {
+    public String getName() {
         return name;
     }
 
-    public double getSalary()
-    {
+    public double getSalary() {
         return salary;
     }
 
-    public void raiseSalary(double byPercent)
-    {
+    public void raiseSalary(double byPercent) {
         double raise = salary * byPercent / 100;
         salary += raise;
     }

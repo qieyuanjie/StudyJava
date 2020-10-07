@@ -1,8 +1,8 @@
 
-	public class Item{
-		String name;
-		int price;
-	}
+public class Item {
+    String name;
+    int price;
+}
 //	public class Weapon{
 //		String name;
 //		int price;

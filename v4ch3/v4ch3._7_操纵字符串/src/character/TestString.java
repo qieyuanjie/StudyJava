@@ -157,23 +157,11 @@ public class TestString {
 //        Nature has given us that two ears, two eyes, and but one tongue, to the end that we should hear and see more than we speak
 //        把最后一个two单词首字母大写
         String str = "Nature has given us that two ears, two eyes, and but one tongue, to the end that we should hear and see more than we speak";
-        int a = str.lastIndexOf("two") ;
-        String s0 = str.substring(0,a);
-        String s1 = str.substring(a).replaceFirst("t","T");
+        int a = str.lastIndexOf("two");
+        String s0 = str.substring(0, a);
+        String s1 = str.substring(a).replaceFirst("t", "T");
         String result = s0 + s1;
         System.out.println(result);
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

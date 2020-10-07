@@ -34,12 +34,12 @@ class PrivateVisibilityStrategy implements PropertyVisibilityStrategy {
 }
 
 public class Demo2 {
-   public static void main(String[] args) {
-      Country belgium = new Country("Belgium", 30510);
+    public static void main(String[] args) {
+        Country belgium = new Country("Belgium", 30510);
 
-      JsonbConfig config = new JsonbConfig().withPropertyVisibilityStrategy(new PrivateVisibilityStrategy());
-      Jsonb jsonb = JsonbBuilder.create(config);
-      String json = jsonb.toJson(belgium);
-      System.out.println(json);
-   }
+        JsonbConfig config = new JsonbConfig().withPropertyVisibilityStrategy(new PrivateVisibilityStrategy());
+        Jsonb jsonb = JsonbBuilder.create(config);
+        String json = jsonb.toJson(belgium);
+        System.out.println(json);
+    }
 }

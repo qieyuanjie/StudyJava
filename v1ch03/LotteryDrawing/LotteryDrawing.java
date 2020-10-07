@@ -2,13 +2,12 @@ import java.util.*;
 
 /**
  * This program demonstrates array manipulation.
- * @version 1.20 2004-02-10
+ *
  * @author Cay Horstmann
+ * @version 1.20 2004-02-10
  */
-public class LotteryDrawing
-{
-    public static void main(String[] args)
-    {
+public class LotteryDrawing {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.print("How many numbers do you need to draw? ");
@@ -24,8 +23,7 @@ public class LotteryDrawing
 
         // draw k numbers and put them into a second array
         int[] result = new int[k];
-        for (int i = 0; i < result.length; i++)
-        {
+        for (int i = 0; i < result.length; i++) {
             // make a random index between 0 and n - 1
             int r = (int) (Math.random() * n);
 

@@ -33,10 +33,10 @@ class Employee {
     private double salary;
 
     //构造器
-    public Employee(String n,double s,int yesr,int month,int day){
+    public Employee(String n, double s, int yesr, int month, int day) {
         name = n;
         salary = s;
-        hireDay = LocalDate.of(yesr,month,day);
+        hireDay = LocalDate.of(yesr, month, day);
     }
 
 

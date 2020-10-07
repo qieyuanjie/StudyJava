@@ -1,3 +1,3 @@
-public class SomeString extends String{
-	
+public class SomeString extends String {
+
 }

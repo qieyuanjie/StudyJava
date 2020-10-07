@@ -1,4 +1,5 @@
 package charactor;
+
 //抽象类可以定义
 //public,protected,package,private
 //静态和非静态属性
@@ -9,9 +10,10 @@ package charactor;
 //final的
 //即便没有显式的声明
 public interface AP {
-	public static final int resistMagic = 100;
-	int resitMagic = 0;
-	//resisMagic即便没有显式的声明为public static final
-	//也会默认的隐式的声明为 public static final
-	public void magicAttack() ;
+    public static final int resistMagic = 100;
+    int resitMagic = 0;
+
+    //resisMagic即便没有显式的声明为public static final
+    //也会默认的隐式的声明为 public static final
+    public void magicAttack();
 }

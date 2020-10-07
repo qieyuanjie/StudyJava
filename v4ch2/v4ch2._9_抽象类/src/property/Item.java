@@ -3,8 +3,8 @@ package property;
 public abstract class Item {
     String name;
     int price;
- 
-//    public String toString() {
+
+    //    public String toString() {
 //    	return name + price;
 //    }
 //    public void finalize() {
@@ -18,6 +18,7 @@ public abstract class Item {
 //    	return false;
 //    }
     public abstract boolean disposable();
+
     public static void main(String[] args) {
 //    	Item I1 = new Item();
 //    	I1.name = "血瓶";

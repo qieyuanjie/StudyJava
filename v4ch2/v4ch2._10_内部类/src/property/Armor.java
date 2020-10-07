@@ -1,10 +1,13 @@
 package property;
-public class Armor extends Item{
-	int level;//护甲等级
-	public boolean disposable() {
-		return false;
-	}
-	public static void main(String[] args) {
+
+public class Armor extends Item {
+    int level;//护甲等级
+
+    public boolean disposable() {
+        return false;
+    }
+
+    public static void main(String[] args) {
 //		Armor infinityEdge = new Armor();
 //		infinityEdge.name = "布甲";
 //		infinityEdge.price = 300;
@@ -16,6 +19,6 @@ public class Armor extends Item{
 //		infinityEdge.level = 40;
 //		System.out.println(infinityEdge.name+"+"+infinityEdge.price+"+"+infinityEdge.level);
 //		
-		
-	}
+
+    }
 }

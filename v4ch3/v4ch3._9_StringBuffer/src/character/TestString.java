@@ -1,7 +1,8 @@
 package character;
-public class TestString extends MyStringBuffer{
+
+public class TestString extends MyStringBuffer {
     //StringBuffer是可变长的字符串
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //append追加
         //delete 删除
         //insert 插入
@@ -44,7 +45,7 @@ public class TestString extends MyStringBuffer{
         //然后,再使用StringBuffer连接10000个随机字符串,计算消耗的时间
         //
         //提示: 使用System.currentTimeMillis() 获取当前时间(毫秒)
-        final int Total =10000;
+        final int Total = 10000;
         final int num = 33;
 //        String str1 = "the";
         String str1 = getRandomString(num);
@@ -53,24 +54,24 @@ public class TestString extends MyStringBuffer{
 //            str1 += getRandomString(num);
 //        }
         long t2 = System.currentTimeMillis();
-        System.out.println(t2-t1);
+        System.out.println(t2 - t1);
 
         StringBuffer sb = new StringBuffer(str1);
         t1 = System.currentTimeMillis();
-        for(int i = 0;i<Total;i++){
+        for (int i = 0; i < Total; i++) {
             sb.append(getRandomString(num));
         }
         t2 = System.currentTimeMillis();
-        System.out.println(t2-t1);
+        System.out.println(t2 - t1);
 
 
         MyStringBuffer msb = new MyStringBuffer(str1);
         t1 = System.currentTimeMillis();
-        for(int i = 0;i<Total;i++){
+        for (int i = 0; i < Total; i++) {
             msb.append(getRandomString(num));
         }
         t2 = System.currentTimeMillis();
-        System.out.println(t2-t1);
+        System.out.println(t2 - t1);
 
     }
 }

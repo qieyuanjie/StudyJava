@@ -1,6 +1,7 @@
 package date;
 
 //TODO Calendar类即日历类，常用于进行“翻日历”，比如下个月的今天是多久
+
 import org.jetbrains.annotations.NotNull;
 
 import java.util.Calendar;
@@ -10,7 +11,7 @@ import java.text.SimpleDateFormat;
 public class TestDate {
     private static SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:SS");
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        //采用单例模式获取日历对象Calendar.getInstance();
 //        Calendar c = Calendar.getInstance();
 //
@@ -52,18 +53,18 @@ public class TestDate {
 
         c.setTime(now);
         //先翻到下下个月
-        c.add(Calendar.MONTH,2);
+        c.add(Calendar.MONTH, 2);
         //设置到月初
-        c.set(Calendar.DATE,1);
+        c.set(Calendar.DATE, 1);
         //再往前翻3天
-        c.add(Calendar.DATE,-3);
-        System.out.println("下个月的倒数第三天是：\t"+ format(c.getTime()));
+        c.add(Calendar.DATE, -3);
+        System.out.println("下个月的倒数第三天是：\t" + format(c.getTime()));
 
 
     }
 
     @NotNull
-    private static String format(Date time){
+    private static String format(Date time) {
         return sdf.format(time);
     }
 }

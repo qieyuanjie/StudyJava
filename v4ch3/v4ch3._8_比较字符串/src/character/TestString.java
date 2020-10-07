@@ -1,7 +1,7 @@
 package character;
 
 public class TestString {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 //        String str1 = "the light";
 //        String str2 = "the light";
 //        String str3 = new String(str1);
@@ -45,15 +45,15 @@ public class TestString {
         int num = 0;
 //        TestString TS1 = new TestString();
         String[] str = new String[100];
-        for(int i = 0;i < str.length;i++){
+        for (int i = 0; i < str.length; i++) {
             str[i] = TestString.getRandomString(2);
             System.out.print(str[i] + " ");
-            if((i+1)!=1&&(i+1)%10==0)System.out.println();
+            if ((i + 1) != 1 && (i + 1) % 10 == 0) System.out.println();
         }
         System.out.println("重复的字符串是:");
-        for(int i = 0;i < str.length - 1;i++){
-            for(int j = i+1;j < str.length;j++){
-                if(str[i].equals(str[j])){
+        for (int i = 0; i < str.length - 1; i++) {
+            for (int j = i + 1; j < str.length; j++) {
+                if (str[i].equals(str[j])) {
                     num++;
                     System.out.println(str[i] + " ");
                     break;
@@ -67,23 +67,24 @@ public class TestString {
         System.out.println("共有" + num + "个");
 
     }
-    public static String getRandomString(int N){
+
+    public static String getRandomString(int N) {
         //1.先打随机数表
         StringBuilder pool = new StringBuilder();
-        for(char i = 'a';i <= 'z';i++){
+        for (char i = 'a'; i <= 'z'; i++) {
             pool.append(i);
         }
-        for(char i = '1';i <= '9';i++){
+        for (char i = '1'; i <= '9'; i++) {
             pool.append(i);
         }
-        for(char i = 'A';i <= 'Z';i++){
+        for (char i = 'A'; i <= 'Z'; i++) {
             pool.append(i);
         }
         //打表完成，开始随机
 
         char[] cs = new char[N];
-        for(int i = 0;i < cs.length;i++){
-            int index = (int)(Math.random()*pool.length());
+        for (int i = 0; i < cs.length; i++) {
+            int index = (int) (Math.random() * pool.length());
             cs[i] = pool.charAt(index);
         }
 //        String result = new String(cs);
